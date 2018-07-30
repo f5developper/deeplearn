@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+  oppython:
+    image: "library/ubuntu:bionic"
+    ports:
+      - 80:80
+    volumes:
+      - "../src:/var/www/html"
